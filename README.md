@@ -30,6 +30,18 @@ The analysis produced the following key statistics:
 2.	Total Forest Carbon: 14,678,299 tonnes
 These figures align with published estimates for German forests, considering that our analysis focused on areas with tree cover greater than 25%.
 
+Summary:
+This model is based on:
+
+Spectral indices (NDVI),
+
+Remote sensing-based indicators (TCD),
+
+Topographic data (elevation).
+
+All these are used as features in a Random Forest regression to estimate forest carbon.
+The model does not explicitly use a formula beyond the NDVI computation, but it relies on satellite-derived indices and variables as machine learning inputs.
+
 
 
 
